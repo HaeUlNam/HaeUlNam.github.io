@@ -29,7 +29,7 @@ author:
   contact:
     # linkedin:  https://www.linkedin.com/in/lizhihao
     github:    https://github.com/HaeUlNam
-    #facebook:  https://www.facebook.com/wayhome25
+    # facebook:  https://www.facebook.com/wayhome25
     # twitter:   https://twitter.com/Li_Zhihao
     # weibo:     http://weibo.com/41173780
     email:    mailto:harrynam3@naver.com
@@ -43,7 +43,7 @@ nav:
     # - { Categories All: '/blog/categories/' }
     - { TIL (Today I Learned): '/blog/categories/#til' }
     - { TIE (Today I Exited): '/blog/categories/#tie' }
-    - { 자료구조 알고리즘 구현: '/blog/categories/#자료구조-알고리즘-구현'}
+    - { 자료구조-알고리즘-구현: '/blog/categories/#자료구조-알고리즘-구현'}
     - { PS(Problem-Solve): '/blog/categories/#PS(Problem-Solve)'}
     - { ML (Machine Learning): '/blog/categories/#ml' }
     - { etc: '/blog/categories/#etc' }
