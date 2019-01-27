@@ -53,15 +53,15 @@ index 0에서부터 찾아나갈 것이다. binary search가 더 효율적인데
 대부분의 IT기업들은 알고리즘 테스트를 통해, 신입을 채용하고자 한다.<br>
 
 1. 삼성전자 및 삼성SDS<br>
-<img src="/assets/post_img/algorithm/삼성SDS_채용전형.png"/> <br>
+<img src="/assets/post-img/algorithm/삼성SDS_채용전형.png"/> <br>
 2. 카카오<br>
-<img src="/assets/post_img/algorithm/카카오_채용전형.png"/> <br>
+<img src="/assets/post-img/algorithm/카카오_채용전형.png"/> <br>
 3. SK하이닉스 <br>
-<img src="/assets/post_img/algorithm/sk하이닉스_채용전형.png"/> <br>
+<img src="/assets/post-img/algorithm/sk하이닉스_채용전형.png"/> <br>
 4. 현대자동차 <br>
-<img src="/assets/post_img/algorithm/현대자동차_채용전형.png"/> <br>
+<img src="/assets/post-img/algorithm/현대자동차_채용전형.png"/> <br>
 5. LINE <br>
-<img src="/assets/post_img/algorithm/라인_채용전형.png"/> <br>
+<img src="/assets/post-img/algorithm/라인_채용전형.png"/> <br>
 
 각 회사별 수준 차이는 많이 나고 유형도 다르기에 그에 맞추어 잘 준비해도 좋을 듯하다. <br>
 sk하이닉스는 skct 인적성도 같이 본다고 한다. <br><br>
