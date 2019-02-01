@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 00_1. 왜 자료 구조, 알고리즘을 배워야 할까?
+title: 01. 왜 자료 구조, 알고리즘을 배워야 할까?
 category: 자료구조-알고리즘-구현
 permalink: /algorithm/:year/:month/:day/:title/
 tags: [DataStructure, Algorithm]
