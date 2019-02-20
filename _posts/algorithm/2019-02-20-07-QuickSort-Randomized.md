@@ -123,9 +123,10 @@ swap(arr[start], arr[pivotidx]);
 pivotidx = start;
 ```
 
-* 사실, Random적으로 pivot을 고르면 왜 더 줄어드는지는 명확하지는 않다...ㅠㅠㅠㅠ 좀 더 공부가 필요하다.ㅠㅠㅠㅠㅠㅠ
+* 사실, Random적으로 pivot을 고르면 왜 더 줄어드는지는 수학적으로 증명은 어렵지만 아래와 같이 이해한 것을 설명하겠다.<br>
+-> 지금 이해한 것으로는 Quick Sort는 한 번 skewed data가 생길 경우, 재귀적으로 skewed data에 대해 수행해야한다. 하지만 randomized 방식을 사용하면 한번 skewed data가 발생하였다고 해도, 그 다음은 rand으로 pivot을 결정할 때 또 1/n의 확률로 결정되기에 skewed한 상황이 지속적으로 일어나지 않는다. 따라서, randomized Quick Sort가 점근적으로 nlogn에 접근한다고 할 수 있다. 
 
-* https://ko.wikipedia.org/wiki/%ED%99%95%EB%A5%A0%EC%A0%81_%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98 를 참고해도 좋을 듯합니다.
+* [위키피디아 - 확률적 알고리즘](https://ko.wikipedia.org/wiki/%ED%99%95%EB%A5%A0%EC%A0%81_%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98) 을 참고해도 좋을 듯합니다.
 
 ---
 
@@ -135,7 +136,8 @@ pivotidx = start;
     * 할당된 배열 하나로 정렬을 진행할 수 있다는 뜻이다.
 
 * Locality of reference가 좋다.
-    * https://stackoverflow.com/questions/30867112/does-partition-function-gives-quick-sort-its-locality-of-reference 참고하자.
+    * [Does partition function gives quick sort its locality of reference?
+](https://stackoverflow.com/questions/30867112/does-partition-function-gives-quick-sort-its-locality-of-reference) 참고하자.
 
 ---
 
