@@ -33,7 +33,8 @@ comments: true
         <img style="max-width: 60%; height: auto;" src="/assets/post-img/algorithm/quicksort_0.png"/> 
 </p><br>
 
-1. 
+아래의 예제를 천천히 따라가보며, QuickSort를 이해해보자.
+
 <p style="text-align: center;">
         <img style="max-width: 60%; height: auto;" src="/assets/post-img/algorithm/quicksort_1.png"/> 
 </p><br>
@@ -43,14 +44,14 @@ comments: true
 
 pivot = 1 / i = 1 / j = 2일 때, arr[j]는 arr[pivot]보다 크기 때문에, j <- j + 1 만 해주고 다음으로 넘어간다.
 
-2. 
+ 
 <p style="text-align: center;">
         <img style="max-width: 60%; height: auto;" src="/assets/post-img/algorithm/quicksort_3.png"/> 
 </p><br>
 
 1번과 동일하게 j<- j+1
-
-3. <p style="text-align: center;">
+ 
+<p style="text-align: center;">
         <img style="max-width: 60%; height: auto;" src="/assets/post-img/algorithm/quicksort_4.png"/> 
 </p><br>
 
@@ -58,31 +59,31 @@ j번째의 수가 pivot보다 작기에, i <- i + 1을 한 뒤 arr[i]와 arr[j]�
 
 <p style="text-align: center;">
         <img style="max-width: 60%; height: auto;" src="/assets/post-img/algorithm/quicksort_5.png"/> 
-</p><br><br>
+</p><br>
 
 <p style="text-align: center;">
         <img style="max-width: 60%; height: auto;" src="/assets/post-img/algorithm/quicksort_6.png"/> 
-</p><br><br>
+</p><br>
 <p style="text-align: center;">
         <img style="max-width: 60%; height: auto;" src="/assets/post-img/algorithm/quicksort_7.png"/> 
-</p><br><br>
+</p><br>
 <p style="text-align: center;">
         <img style="max-width: 60%; height: auto;" src="/assets/post-img/algorithm/quicksort_8.png"/> 
-</p><br><br>
+</p><br>
 <p style="text-align: center;">
         <img style="max-width: 60%; height: auto;" src="/assets/post-img/algorithm/quicksort_9.png"/> 
-</p><br><br>
+</p><br>
 <p style="text-align: center;">
         <img style="max-width: 60%; height: auto;" src="/assets/post-img/algorithm/quicksort_10.png"/> 
-</p><br><br>
+</p><br>
 
 <p style="text-align: center;">
         <img style="max-width: 60%; height: auto;" src="/assets/post-img/algorithm/quicksort_11.png"/> 
-</p><br><br>
+</p><br>
 
 <p style="text-align: center;">
         <img style="max-width: 60%; height: auto;" src="/assets/post-img/algorithm/quicksort_12.png"/> 
-</p><br><br>
+</p><br>
 
 반복적으로 수행하다가, 마지막에 pivot을 자신의 위치로 두고 재귀적으로 왼쪽 오른쪽을 반복적으로 수행하면 된다.
 
