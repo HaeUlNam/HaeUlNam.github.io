@@ -6,7 +6,7 @@ permalink: /algorithm/:year/:month/:day/:title/
 tags: [DataStructure, Algorithm, Sort, QuickSort, nlogn, Randomized]
 comments: true
 ---
-
+<br><br>
 * 시작하기에 앞서 이번 포스팅은 광운대학교 황호영 교수님의 알고리즘 수업을 참고하여 만들어졌습니다. 아래의 모든 그림은 Introduction to Algorithm ppt에서 가져왔습니다.
 
 ---
