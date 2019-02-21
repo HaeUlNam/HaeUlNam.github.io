@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 06. QuickSort & Randomized QuickSort
+title: 06. 퀵 소트(QuickSort) & Randomized QuickSort
 category: 자료구조-알고리즘-구현
 permalink: /algorithm/:year/:month/:day/:title/
 tags: [DataStructure, Algorithm, Sort, QuickSort, nlogn, Randomized]
@@ -11,7 +11,7 @@ comments: true
 
 ---
 
-## Intro
+## Quick Sort Intro
 
 * Quick이라는 말 그대로 Sort 중에 빠른 축에 속하는 알고리즘이다. <br> 평균적으로 nlogn이긴 하지만, pivot을 결정할 때 Skewed data (치우친 데이터)가 있을 수 있기에, 그냥 Quick Sort는 최악의 경우 n제곱이다.
 
@@ -21,7 +21,7 @@ comments: true
 
 ---
 
-## Quick Sort
+## Quick Sort 개념 설명
 
 * 퀵 소트는 Divide & Conquer를 적용한 알고리즘이다.
     * 따라서, 오른쪽과 같이 3가지 기능이 존재한다. Divide, Conquer, Combine
