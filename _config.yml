@@ -42,7 +42,7 @@ nav:
     - '/'
     # - { Categories All: '/blog/categories/' }
     - { TIL (Today I Learned): '/blog/categories/#til' }
-    - { TIE (Today I Exited): '/blog/categories/#tie' }
+    - { TDT (To Do Today): '/blog/categories/#tdt' }
     - { 자료구조-알고리즘-구현: '/blog/categories/#자료구조-알고리즘-구현'}
     - { PS(Problem-Solve): '/blog/categories/#PS(Problem-Solve)'}
     - { ML (Machine Learning): '/blog/categories/#ml' }
