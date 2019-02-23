@@ -47,7 +47,7 @@ index 0에서부터 찾아나갈 것이다. binary search가 더 효율적인데
 
 > 추가적으로 읽으면 좋을 글<br><br>
 -임백준님의 [문제는 알고리즘이다](http://m.zdnet.co.kr/column_view.asp?artice_id=20150622080223#imadnews)<br>
--[Why are data structures and algorithms so important in computer science?](https://www.quora.com/Why-are-data-structures-and-algorithms-so-important-in-computer-science)
+-[Why are data structures and algorithms so important in computer science?](https://www.quora.com/Why-are-data-structures-and-algorithms-so-important-in-computer-science)<br>
 -네이버랩스 송기선님의 [개발을 잘하고 싶어요](https://www.slideshare.net/mobile/deview/ss-58739254)<br>
 -[구글 인터뷰를 보려고 8개월간 풀타임으로 공부한 이유](https://medium.com/@_chyotsuba/%EA%B5%AC%EA%B8%80-%EC%9D%B8%ED%84%B0%EB%B7%B0%EB%A5%BC-%EB%B3%B4%EB%A0%A4%EA%B3%A0-8%EA%B0%9C%EC%9B%94%EA%B0%84-%ED%92%80%ED%83%80%EC%9E%84%EC%9C%BC%EB%A1%9C-%EA%B3%B5%EB%B6%80%ED%95%9C-%EC%9D%B4%EC%9C%A0-d6ce5faff5a7)
 -[손코딩 뇌컴파일 눈디버깅](https://brunch.co.kr/@brunch4nrs/2)
