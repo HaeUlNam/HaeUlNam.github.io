@@ -45,6 +45,7 @@ nav:
     - { TDT(To-Do-Today): '/blog/categories/#tdt' }
     - { 자료구조-알고리즘-구현: '/blog/categories/#자료구조-알고리즘-구현'}
     - { PS(Problem-Solve): '/blog/categories/#PS(Problem-Solve)'}
+    - { 논문-리뷰: '/blog/categories/#paper'}
     - { ML(Machine-Learning): '/blog/categories/#ml' }
     - { etc: '/blog/categories/#etc' }
     # - { Tags: '/blog/tags/' }
