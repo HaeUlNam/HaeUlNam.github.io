@@ -3,7 +3,7 @@ layout: post
 title: 08. 다음 순열(Next Permutation)
 category: 자료구조-알고리즘-구현
 permalink: /algorithm/:year/:month/:day/:title/
-tags: [DataStructure, Algorithm, nlogn, Randomized]
+tags: [DataStructure, Algorithm, Permutation, Next_Permutation, 조합]
 comments: true
 ---
 <br><br>
