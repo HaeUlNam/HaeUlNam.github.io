@@ -6,7 +6,7 @@ permalink: /algorithm/:year/:month/:day/:title/
 tags: [DataStructure, Algorithm, Permutation, Next_Permutation, 조합]
 comments: true
 ---
-<br><br>
+<br>
 
 ---
 ## 다음 순열
