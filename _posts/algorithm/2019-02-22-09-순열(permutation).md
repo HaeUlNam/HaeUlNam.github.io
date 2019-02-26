@@ -61,5 +61,8 @@ if(!next_permutation(a.begin(), a.end()))
     cout << "The End Permutation" << endl;
 }
 ```
-
 ---
+
+## 라이브러리 사용 안하려면..
+
+https://kwanghyuk.tistory.com/25 여기 확인해서 공부해보자..
