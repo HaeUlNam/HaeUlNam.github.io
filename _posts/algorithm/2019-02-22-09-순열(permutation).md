@@ -25,7 +25,7 @@ next_permutation(a.begin(), a.end());
 
 ## 순열의 끝인지 확인 방법
 
-* 위처럼 vector가 있으면 정렬하여서, next_permutation한 것과 비교하면 된다.
+1. 위처럼 vector가 있으면 정렬하여서, next_permutation한 것과 비교하면 된다.
 
 ```cpp  
 #include<algorithm>
@@ -52,3 +52,14 @@ if(!check)
     cout << "The End Permutation" << endl;
 }
 ```
+
+2. 사실 next_permutation()에서 return값이 false이면, 다음 순열이 없는 것이다.
+
+```cpp
+if(!next_permutation(a.begin(), a.end()))
+{
+    cout << "The End Permutation" << endl;
+}
+```
+
+---
