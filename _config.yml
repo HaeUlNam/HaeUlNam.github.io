@@ -47,7 +47,7 @@ nav:
     - { PS(Problem-Solve): '/blog/categories/#PS(Problem-Solve)'}
     - { 논문-리뷰: '/blog/categories/#paper'}
     - { 강연: '/blog/categories/#lecture' }
-    - { ML(Machine-Learning): '/blog/categories/#ml' }
+    - { Machine-Learning: '/blog/categories/#ml' }
     - { etc: '/blog/categories/#etc' }
     # - { Tags: '/blog/tags/' }
   About:
