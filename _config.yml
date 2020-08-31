@@ -42,14 +42,8 @@ nav:
     - '/'
     # - { Categories All: '/blog/categories/' }
     - { TIL(Today-I-Learned): '/blog/categories/#til' }
-    - { TDT(To-Do-Today): '/blog/categories/#tdt' }
-    - { 자료구조-알고리즘-구현: '/blog/categories/#자료구조-알고리즘-구현'}
-    - { Pro스터디: '/blog/categories/#proStudy' }
-    - { PS(Problem-Solve): '/blog/categories/#PS(Problem-Solve)'}
-    - { 논문-리뷰: '/blog/categories/#paper'}
-    - { 강연: '/blog/categories/#lecture' }
-    - { Machine-Learning: '/blog/categories/#ml' }
-    - { etc: '/blog/categories/#etc' }
+    - { Effective Java 3/E: '/blog/categories/#effectiveJava' }
+    
     # - { Tags: '/blog/tags/' }
   About:
     - '/about/'
