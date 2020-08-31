@@ -37,6 +37,7 @@ public static Boolean valueOf(boolean b){
       * [싱글톤 패턴](https://github.com/HaeUlNam/TIL/blob/master/DesignPattern/Singleton.md), 인스턴스화 불가(Item 4), 불변 값 클래스(Item 17)에서 동치인 인스턴스가 단 하나임을 보장 가능
       * 플라이웨이트 패턴에 근간이 되며, 열거 타입(Item 34)은 인스턴스가 하나만 만들어짐을 보장한다.
     - 예시: Boolean.valueOf(boolean)
+    
     ```java
     public static final Boolean TRUE = new Boolean(true);
     public static final Boolean FALSE = new Boolean(false);
@@ -55,6 +56,7 @@ public static Boolean valueOf(boolean b){
     그 안에 정의하는 것이 관례였다.
       - Collection은 Collections라는 동반 클래스를 통해 유용한 기능들을 제공한다.
       - java.util.Collections: 45개의 유틸리티 구현체 대부분을 Collections를 통해 얻게 된다. 45개 대부분을 공개하지 않기 때문에 API의 외견을 훨씬 작게 만들 수 있었다.
+      
     ```java
     public static <K,V> Map<K,V> unmodifiableMap(Map<? extends K, ? extends V> m) {
         return new UnmodifiableMap<>(m);
@@ -76,6 +78,7 @@ public static Boolean valueOf(boolean b){
     - 예시) EnumSet 클래스는 public 생성자 없이 오직 정적 팩터리만 제공하는데, 원소의 수에 따라 두 가지 하위 클래스 중 하나 return.
       - 64이하면 원소들을 long 변수 하나로 관리하는 RegularEnumSet
       - 65이상이면 long 배열로 관리하는 JumboEnumSet의 인스턴스를 반환
+      
       ```java
       //noneOf 메소드에서 상황에 따라 다른 구현체 객체들을 만들어서 반환해주고 있다.
       public static noneOf(...) {
@@ -120,6 +123,7 @@ public static Boolean valueOf(boolean b){
       * [Java 8 Boolean](https://docs.oracle.com/javase/8/docs/api/)
     - 따라서, 아래의 정적 팩토리 메서드 명명 규칙을 알면, 코드 속에서 더 빠르게 정적 팩토리 메서드를 찾을 수 있다.
     - 아래에서 나오는 Type은 팩토리 메서드가 반환할 객체의 타입이다.
+    
       |함수명|내용|예시|
       |------|---|---|
       |from|매개변수를 하나 받아서 해당 타입의 인스턴스를 반환하는 형변환 메서드|Data d = Date.from(instant);|
